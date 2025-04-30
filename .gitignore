@@ -112,3 +112,7 @@ dmypy.json
 .DS_Store
 
 .yarn
+
+# pixi environments
+.pixi
+*.egg-info
