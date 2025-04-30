@@ -20,3 +20,9 @@ python = "3.9.*"
 
 [pypi-dependencies]
 jldracula = { path = ".", editable = true }
+
+[package.host-dependencies]
+jupyter_packaging = ">=0.12.0"
+jupyterlab = ">=3.0.0,<5"
+setuptools = ">=40.8.0"
+wheel = ">=0.45.1,<0.46"
